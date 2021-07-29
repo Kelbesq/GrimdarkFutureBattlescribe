@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="df4c-bebc-a82e-f430" name="Alien Hives" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="df4c-bebc-a82e-f430" name="Alien Hives" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="3518-c2b3-bfde-3ff1" name="Alien Hives v2.11"/>
+    <publication id="3518-c2b3-bfde-3ff1" name="Alien Hives v2.12"/>
   </publications>
   <entryLinks>
     <entryLink id="a502-27a4-fc46-4917" name="Hive Lord" hidden="false" collective="false" import="true" targetId="b4ec-35df-a8ec-3001" type="selectionEntry">
@@ -353,7 +353,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4978-ca2f-6ce5-6e6b" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1410,7 +1410,7 @@
                         <entryLink id="dad5-5828-7f63-63a6" name="Spells" hidden="false" collective="false" import="true" targetId="db9a-8ce7-bcc1-14f5" type="selectionEntryGroup"/>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1988,7 +1988,7 @@
               <entryLinks>
                 <entryLink id="0b76-beed-69f6-2791" name="Bio-Harpoon" hidden="false" collective="false" import="true" targetId="3d83-9c2a-c0d0-5e0d" type="selectionEntry">
                   <costs>
-                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="9d9a-47fc-c8e2-0765" name="Bio-Shock Gun" hidden="false" collective="false" import="true" targetId="7d7a-28eb-e2df-2bc4" type="selectionEntry">
@@ -2196,7 +2196,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="160.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="180.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3bd1-21f1-e6e0-d956" name="Ravenous Beast" hidden="false" collective="false" import="true" type="upgrade">
@@ -3094,7 +3094,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17ac-d5c3-d288-0776" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -4978,7 +4978,7 @@
     <profile id="174a-babf-72ad-5dca" name="Tail Scythe" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
-        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Deadly</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Deadly(3)</characteristic>
       </characteristics>
     </profile>
     <profile id="1523-9188-ba73-7529" name="Tail Mace" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
